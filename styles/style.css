@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: var(--cor05);
+}
+main{
+    width: 85vw;
+    margin: auto;
+    padding: 22% 0px;
+}
+section{
+    padding: 50px;
+}
+#sedans{
+    background-color: var(--cor01);
+    border-radius: 8px 8px 0px 0px;
+}
+#suvs{
+    background-color: var(--cor02);
+}
+#luxury{
+    background-color: var(--cor03);
+    border-radius: 0px 0px 8px 8px;
+}
+img{
+    margin: 8px 0px;
+}
+h1{
+    font-family: var(--font02);
+    color: var(--cor05);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 20px 0px;
+}
+p{
+    font-family: var(--font01);
+    color: var(--cor04);
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: left;
+    line-height: 25px;
+    margin: 25px 0px;
+}
+button{
+    font-family: var(--font01);
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: none;
+}
+#b-sedans{
+    color: var(--cor01);
+}
+#b-suvs{
+    color: var(--cor02);
+}
+#b-luxury{
+    color: var(--cor03);
+}
+button:hover{
+    cursor: pointer;
+    border: 1px var(--cor05) solid;
+}
+#b-sedans:hover{
+    background-color: var(--cor01);
+    color: var(--cor04);
+}
+#b-suvs:hover{
+    background-color: var(--cor02);
+    color: var(--cor04);
+}
+#b-luxury:hover{
+    background-color: var(--cor03);
+    color: var(--cor04);
+}

@@ -1,0 +1,21 @@
+@media screen and (min-width:670px) and (max-width:2500px){
+    main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        width: 900px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #sedans{
+        border-radius: 8px 0px 0px 8px;
+    }
+    #luxury{
+        border-radius: 0px 8px 8px 0px;
+    }
+    button{
+        margin: 50px 0px 0px;
+    }
+}
